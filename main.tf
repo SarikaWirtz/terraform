@@ -9,7 +9,6 @@ terraform {
 
 provider "aws" {
   region  = "us-west-2"
-  profile = "jack.roper"
 }
 
 resource "aws_instance" "example_server" {
